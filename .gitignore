@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets / env
+.env
+.env.*
+!.env.example
+
+# Data, models, outputs (large, not tracked)
+outputs/
+*.zip
+*.csv
+*.jsonl
+med-dataset*.json
+dataset-img-train/
+test-img/
+uv.lock
+.DS_Store
